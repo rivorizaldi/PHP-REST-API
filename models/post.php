@@ -85,8 +85,8 @@
     //Create Post
     public function create(){
       //Create query
-      $query = 'INSERT INTO
-                ' . $this->table . '
+      $query = 'INSERT INTO ' 
+              . $this->table . '
                 SET
                   title = :title,
                   body = :body,
@@ -110,7 +110,7 @@
 
 
       //Execute query
-      if ($stmt->execute) {
+      if ($stmt->execute()) {
         return true;
       } 
 

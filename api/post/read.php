@@ -46,9 +46,6 @@
         //No Post
         echo json_encode(
             array('message' => 'No Post Found')
-        );
-        
+        ); 
     }
-    
-    
 ?>
