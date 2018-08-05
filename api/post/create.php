@@ -28,12 +28,11 @@
     //Create Post
     if($post->create()) {
         echo json_encode(
-            array('message' => 'Post Created');
+            array('message' => 'Post Created')
         );
     } else {
         echo json_encode(
-            array('message' => 'Post Not Created');
-            
+            array('message' => 'Post Not Created')
         );
     }
 ?>
